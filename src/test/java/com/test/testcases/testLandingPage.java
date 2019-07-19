@@ -30,21 +30,21 @@ public class testLandingPage extends BaseTestCase {
 
 	@Test
 	public void loadlandingPage() throws IOException {
-		log.info("Entering method loadlandingPage");
+		log.debug("Entering method loadlandingPage");
 		HomePage hp = new HomePage(driver);
 		hp.loadHomePage(driver);
 		hp.getloginPage(driver).click();
 		Assert.assertEquals(driver.getTitle(), "QaClickAcademy", "Verification of the login page");
-		log.info("Exiting method loadlandingPage");
+		log.debug("Exiting method loadlandingPage");
 	}
 	
 	@Test
 	public void checkBannerOnLandingPage() {
-		log.info("Entering method checkBannerOnLandingPage");
+		log.debug("Entering method checkBannerOnLandingPage");
 		HomePage hp = new HomePage(driver);
 		hp.loadHomePage(driver);
 		Assert.assertTrue(hp.getBannerOnPage(driver).isDisplayed());
-		log.info("Exiting method checkBannerOnLandingPage");
+		log.debug("Exiting method checkBannerOnLandingPage");
 	}
 
 }
