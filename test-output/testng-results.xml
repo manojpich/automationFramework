@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90028" started-at="2019-07-18T10:04:28Z" finished-at="2019-07-18T10:05:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="90028" started-at="2019-07-18T10:04:28Z" finished-at="2019-07-18T10:05:59Z">
+      <class name="com.test.testcases.testLandingPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.testcases.testLandingPage@7d8995e]" name="setup" is-config="true" duration-ms="7937" started-at="2019-07-18T10:04:29Z" finished-at="2019-07-18T10:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkBannerOnLandingPage()[pri:0, instance:com.test.testcases.testLandingPage@7d8995e]" name="checkBannerOnLandingPage" duration-ms="4055" started-at="2019-07-18T10:04:36Z" finished-at="2019-07-18T10:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBannerOnLandingPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.testcases.testLandingPage@7d8995e]" name="tearDown" is-config="true" duration-ms="205" started-at="2019-07-18T10:04:41Z" finished-at="2019-07-18T10:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.testcases.testLandingPage@7d8995e]" name="setup" is-config="true" duration-ms="3026" started-at="2019-07-18T10:04:41Z" finished-at="2019-07-18T10:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="loadlandingPage()[pri:0, instance:com.test.testcases.testLandingPage@7d8995e]" name="loadlandingPage" duration-ms="8098" started-at="2019-07-18T10:04:44Z" finished-at="2019-07-18T10:04:52Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Verification of the login page expected [QaClickAcademy1] but found [QaClickAcademy]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Verification of the login page expected [QaClickAcademy1] but found [QaClickAcademy]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.test.testcases.testLandingPage.loadlandingPage(testLandingPage.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadlandingPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.testcases.testLandingPage@7d8995e]" name="tearDown" is-config="true" duration-ms="98" started-at="2019-07-18T10:04:52Z" finished-at="2019-07-18T10:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.testLandingPage -->
+      <class name="com.test.testcases.testLoginPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.testcases.testLoginPage@130d63be]" name="setup" is-config="true" duration-ms="2595" started-at="2019-07-18T10:04:53Z" finished-at="2019-07-18T10:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loadloginPage(java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.testLoginPage@130d63be]" name="loadloginPage" duration-ms="19197" started-at="2019-07-18T10:04:55Z" data-provider="getData" finished-at="2019-07-18T10:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[authorized@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadloginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.testcases.testLoginPage@130d63be]" name="tearDown" is-config="true" duration-ms="133" started-at="2019-07-18T10:05:14Z" finished-at="2019-07-18T10:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.testcases.testLoginPage@130d63be]" name="setup" is-config="true" duration-ms="2682" started-at="2019-07-18T10:05:15Z" finished-at="2019-07-18T10:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loadloginPage(java.lang.String, java.lang.String)[pri:0, instance:com.test.testcases.testLoginPage@130d63be]" name="loadloginPage" duration-ms="41183" started-at="2019-07-18T10:05:17Z" data-provider="getData" finished-at="2019-07-18T10:05:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[unauthorized@xyz.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordunauth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadloginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.testcases.testLoginPage@130d63be]" name="tearDown" is-config="true" duration-ms="142" started-at="2019-07-18T10:05:58Z" finished-at="2019-07-18T10:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.testLoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

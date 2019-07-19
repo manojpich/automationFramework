@@ -1,0 +1,6 @@
+16:15:24.106 [main] INFO  com.test.base.BaseTestCase - Exiting method loadlandingPage
+16:15:24.832 [main] INFO  com.test.base.BaseTestCase - Driver tear down complete
+16:15:28.272 [main] INFO  com.test.base.BaseTestCase - Driver initialization complete
+16:15:28.277 [main] INFO  com.test.base.BaseTestCase - Entering method loadloginPage
+16:15:46.964 [main] INFO  com.test.base.BaseTestCase - Exiting method loadloginPage
+16:15:47.432 [main] INFO  com.test.base.BaseTestCase - Driver tear down complete
